@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Karthik's Portfolio - Full Stack Developer with AI/ML Expertise" />
+  <meta name="author" content="Karthik" />
+  <title>Karthik | Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+  
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <style>
+    .navbar-custom {
+      background-color: darkgray;
+      position: fixed;
+      width: 100%;
+      z-index: 999;
+    }
+    .logo {
+      color: red;
+      font-size: 20px;
+    }
+    .btn-contact {
+      width: 75px;
+      color: red;
+      border: 2px solid red;
+    }
+    #main3 {
+      background-color: black;
+      color: white;
+      height: 100vh;
+    }
+    .project-card {
+      border: 1px solid #ccc;
+    }
+    .main6 {
+      background-color: black;
+      color: yellow;
+    }
+    .skill-card {
+      background-color: grey;
+    }
+    .skill-list-item {
+      background-color: grey;
+    }
+    .color {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">port <span class="logo">folio</span></a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list fs-1 text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link text-white active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Projects</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Skills</a></li>
+        </ul>
+        <form class="d-flex ms-3">
+          <button class="btn btn-outline-success btn-contact" type="submit">Contact</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="d-flex flex-column justify-content-center align-items-center text-light" id="main3">
+    <div class="text-center mt-5 pt-5">
+      <p class="display-5 fw-bold">Hi, my name is <span class="text-danger">KARTHIK</span></p>
+      <p class="lead">Dedicated AI/ML and software engineering enthusiast.</p>
+      <div class="d-flex justify-content-center gap-3 mt-3">
+        <a href="#" target="_blank"><i class="bi bi-instagram fs-4 text-white"></i></a>
+        <a href="https://www.linkedin.com/jobs/" target="_blank"><i class="bi bi-linkedin fs-4 text-white"></i></a>
+        <a href="Karthik_Resume.pdf" download><button class="btn btn-outline-danger">Download Resume</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center text-dark mb-4">About Me</h2>
+      <p class="lead text-center text-muted">I am a passionate and detail-oriented full-stack web developer with a strong foundation in <strong>Python</strong> and <strong>Django</strong>. I build responsive and dynamic websites using <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong>, and <strong>Bootstrap</strong>.</p>
+      <p class="text-center text-muted">I enjoy solving complex problems and turning them into elegant, simple solutions. I thrive in collaborative environments and love learning new tools and technologies.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center text-danger mb-4">PROJECTS</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card project-card">
+            <div class="card-body">
+              <h5 class="card-title">Library Management System</h5>
+              <p class="card-text">A Java-based application for adding, deleting, issuing, and returning books. It simplifies cataloging and overdue management.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card project-card">
+            <div class="card-body">
+              <h5 class="card-title">Chat-bot for College Website</h5>
+              <p class="card-text">Built using RASA framework, it answers college-related queries using Natural Language Understanding (NLU).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="main6 py-5">
+    <div class="container">
+      <h2 class="text-center text-danger mb-5">SKILL SET</h2>
+      <div class="row justify-content-center g-4">
+        <div class="col-md-4">
+          <div class="card skill-card">
+            <div class="card-header text-center">Front-End</div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item text-center skill-list-item">HTML5</li>
+              <li class="list-group-item text-center skill-list-item">CSS3</li>
+              <li class="list-group-item text-center skill-list-item">JavaScript</li>
+              <li class="list-group-item text-center skill-list-item">Bootstrap</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card skill-card">
+            <div class="card-header text-center">Back-End</div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item text-center skill-list-item">Python</li>
+              <li class="list-group-item text-center skill-list-item">Django</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card skill-card">
+            <div class="card-header text-center">Database</div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item text-center skill-list-item">MySQL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="your@email.com" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-danger px-4">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
